@@ -88,8 +88,8 @@ module.exports = {
     avalanche: {
       provider: () =>
   new HDWalletProvider(
-    "c526c4dee53a6d771a170635c9f6583f77783378b5cd9ee0971492d25d2149a8",
-    "https://avalanche-mainnet.infura.io/v3/4a38a3bd68e54300a6346c0858a47a8a"
+    "Private_Key",
+    "https://avalanche-mainnet.infura.io/v3/ID"
   ),
       network_id: 43114,       // Goerli's id
       confirmations: 2,    // # of confirmations to wait between deployments. (default: 0)
